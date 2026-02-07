@@ -120,14 +120,14 @@ const Index = () => {
             ))}
             {isLoading && (
               <div className="flex justify-start animate-fade-in">
-                <div className="bg-card rounded-2xl rounded-bl-md px-4 py-3 border border-border shadow-message">
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-1">
-                      <div className="h-2 w-2 bg-primary/40 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
-                      <div className="h-2 w-2 bg-primary/40 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
-                      <div className="h-2 w-2 bg-primary/40 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
+                <div className="bg-card rounded-2xl rounded-bl-md px-5 py-4 border border-border shadow-message">
+                  <div className="flex items-center gap-3">
+                    <div className="flex gap-1.5">
+                      <div className="h-2.5 w-2.5 bg-primary rounded-full animate-pulse-dot" />
+                      <div className="h-2.5 w-2.5 bg-primary rounded-full animate-pulse-dot animation-delay-200" />
+                      <div className="h-2.5 w-2.5 bg-primary rounded-full animate-pulse-dot animation-delay-400" />
                     </div>
-                    <span className="text-xs text-muted-foreground">Analisando...</span>
+                    <span className="text-sm text-muted-foreground">Analisando sua frase...</span>
                   </div>
                 </div>
               </div>
